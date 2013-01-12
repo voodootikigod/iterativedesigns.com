@@ -1,0 +1,388 @@
+html{ height:100%; }
+body {
+  font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-size: 80%;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 20px;
+  height: 100%; 
+	color: #1f1f1f;
+  background:#9F1D21 url(/images/fadeup.png) repeat-x fixed left bottom;
+}
+div#content div#quick_spot div#email_us	img	{
+display:inline;
+margin:-4px 0px;
+}
+
+#content div.article.margined_article  {margin-left:250px; }
+div.floated_article_image { margin:16px; margin-top:0px; float:left }
+div.client_promo	{
+	width:265px;
+	float:left;
+	padding:20px 20px 20px 0px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+body #content div.client_name a	{
+	color:black;
+}
+
+
+body #content div.client_name a:hover	{
+	color:#9F1D21;
+}
+
+div.client_name	{
+	padding-top:4px;
+}
+
+
+div.trimmed_article	{
+margin:0px 40px 10px 40px;
+}
+body #content div.client_brand a:hover img	{
+	border:1px solid #9F1D21;
+}
+body #content div.client_brand a img	{
+	border:1px solid #151515;
+}
+div.footer a, div.footer a:visited	{
+	color:#aaa;
+}
+div.footer	{
+	border-top:1px solid #151515;
+	margin-top:12px;
+	padding-top:8px;
+	margin-bottom:12px;
+	font-size:10px;
+}
+div.footer span    {
+margin-right:12px;
+}
+
+
+div.article p.meta	{
+font-size:12px; padding:0px;
+font-weight:bold;
+margin: 4px 0px 8px;
+}
+/**********************
+ Common Colors 
+***********************/
+.text_link_color {
+	color: #990000;
+}
+.text_hover_color {
+	color: #ffffff;
+	background: #000000;
+}
+/**********************
+ General CSS 
+***********************/
+
+div#pagewrap {
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  width: 950px;
+}
+div#border_wrap {
+  width: 950px;
+  border-left:2px solid #151515;
+  border-right:2px solid #151515;
+  border-bottom:1px solid #151515;
+}
+div#header {
+  display: block;
+  width: 950px;
+  height: 298px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff url(/images/header_black.gif) no-repeat top center;
+}
+div.menu_wrap {
+  display: block;
+  width: 928px;
+
+  padding: 10px 11px 9px;
+  margin: 0px;
+  border: 0px;
+	border-bottom:1px solid #151515;
+  background:#474948 url(/images/menubar.png) repeat-x left top;
+}
+div.menu {
+  margin: 0px;
+	padding:0px;
+}
+div.menu ul {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+  margin: 0px;
+}
+div.menu li {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+
+div.menu li a {
+  font-weight: bold;
+  margin: 0px;
+  border: 0px;
+  padding: 8px 11px 9px;
+  color: #ffffff;
+  text-decoration: none;
+}
+div.menu li a:hover {
+/*   padding: 7px 10px 7px 10px;*/
+  color: #bec0bd;
+	color:#C5261B;
+	padding:8px 10px 9px;
+	border-left:1px solid #777;
+	border-right:1px solid #777;
+  background: #151515;
+}
+
+div.menu li.selected a,
+div.menu li.selected a:hover {
+  color: #ffffff;
+	padding:8px 10px 9px;
+	border-left:1px solid #777;
+	border-right:1px solid #777;
+  background: #151515;
+}
+div#spotlight h1	{
+	margin-top:0px;
+}
+div#spotlight span 	{
+	display:none;
+}
+
+div#spotlight h1	{
+	background:transparent url(/images/we_craft_dreams.gif) top left no-repeat;
+	width:219px;
+	height:26px;
+}
+div#spotlight	{
+	width:630px;
+	margin-left:40px;
+	float:left;
+}
+
+
+div#quick_spot h4 span	{ display:none; }
+div#quick_spot div#email_us	{
+	border-top:1px solid #c5261b;
+	line-height:1;
+	padding-top:5px;
+	margin-top:6px;
+}
+div#quick_spot h4	{
+	background:transparent url(/images/recent_iterations.gif) top left no-repeat;
+	border-bottom:1px solid #c5261b;
+	height:17px;
+
+	padding:0px;
+	margin:0px;
+	
+	padding-bottom:3px;
+	margin-bottom:6px;
+}
+
+div#quick_spot div.tight	{
+	line-height:1.1;
+}
+
+div#quick_spot div.spot_item	{
+	margin:6px 0px;
+	padding-bottom:1px;
+}
+
+div#quick_spot	{
+	width:200px;
+	font-size:90%;
+	line-height:1.4;
+	margin-left:710px;
+	padding:0px 0px;
+}
+div#container{
+  padding: 0px;
+  margin: 0px;
+} 
+#commentslist ul	{ padding:0px; margin:0px; list-style:none}
+.comment {
+	list-style:none;
+	padding:4px;
+  background:#fff url(/images/n2.gif) top left repeat-x;
+margin-bottom:12px
+}
+
+.comment p.meta  {
+  font-weight:bold; padding-top:0px; margin-top:0px;
+}
+div#content {
+  display: block;
+  margin: 0px;
+  padding: 30px 0px 30px 0px;
+  background: #ffffff url(/images/n2.gif) top left repeat-x;
+}
+div#content a {
+	color: #990000;
+	text-decoration: underline;
+}
+div#content a:hover {
+	color: #151515;
+}
+div#content img {
+	display: block;
+	border: 0px;
+}
+div#content a img {
+	border: 0px;
+	padding: 0px;
+	background: #ffffff;
+}
+div#content a img:hover {
+	border: 0px;
+    padding: 0px;
+	background: #ffffff;
+}
+div#inner_content {
+  padding: 0px 21px 0px 21px;
+}
+
+div.feature div.image	{
+	width:200px;
+	text-align:center;
+	float:left;
+}
+
+
+div.feature div.details p	{
+	margin:5px 0px 10px;
+}
+div.feature div.details h3	{
+	font-size:20px;
+	margin:0px;
+}
+
+div.feature div.details	{
+	margin-left: 220px;
+}
+
+div.feature	{
+	margin:0px 40px 20px;
+	
+}
+
+div#see_what span	{
+	display:none;
+}
+div#see_what {
+  display: block;
+  width: 950px;
+  height: 173px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background: #ffffff url(/images/see_what_we_up_to_black.gif) top center no-repeat;
+}
+
+
+div#credits {
+   width: 950px;
+   margin-top:20px;
+   height: 50px;
+   text-align: center;
+   color: #151515;
+   font-size:9px;
+}
+
+
+div#credits a img	{
+	margin:-4px 0px;
+	border:0px;
+}
+
+div#credits a {
+   color: #ffffff;
+}
+div#credits a:hover {
+   color: #ffffff;
+   background: #000000;
+   padding: 1px 0px 1px 0px;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+div.home_image	{
+	width:210px;
+	float:left;
+}
+
+div.meet_badge div.content,
+div.home_article_content	{
+	padding-left:240px;
+}
+
+div.meet_badge div.badge,
+div.article_image	{
+	margin:20px 0px;
+	text-align:center;
+}
+
+div#content div.meet_badge div.badge img,
+div#content div.article_image img	{
+	margin:0px 20px;
+	display:inline;
+}
+
+div#content div.meet_badge,
+div.article, div#commentform, div.home_article, div#commentslist	{
+margin:0px 40px 40px 40px;
+}
+
+/**********************
+ Content for Home Page 
+***********************/
+
+table#sales_pitch th {
+  text-align:left;
+  font-size:10pt;
+  margin-left: -2px;
+}
+table#sales_pitch {
+ width:100%;
+ color: #4c4e4b;
+}
+table#sales_pitch td,
+table#sales_pitch th {
+ width:30%;
+ color: #4c4e4b;
+ padding:0px 0px;
+}
+table#sales_pitch th.spacer, table#sales_pitch td.spacer	{
+width:10px
+}
+table#sales_pitch th.talk_header. table#sales_pitch th.design_header, table#sales_pitch th.develop_header {
+  padding:0px 0px;
+}
+table#sales_pitch td {
+ text-align:justify;
+ vertical-align:top;
+ line-height:1.4;
+}

@@ -1,0 +1,343 @@
+body {
+background-color:#ffffff;
+font-family:verdana;arial;sans-serif;serif;
+font-size : 12;
+background-image:none;
+background-repeat:no-repeat;
+}
+
+/* DEFAULT divisions */
+div.Level1 {
+padding-left: 5px;
+}
+div.Level2 {
+padding-left: 25px;
+}
+div.Level3 {
+padding-left: 45px;
+}
+div.Level4 {
+padding-left: 65px;
+}
+/* DEFAULT image */
+img {
+border:0
+}
+
+/* DEFAULT links */
+a {
+text-decoration:none;
+color : #015A84;
+font-size : 13;
+}
+a:link {
+}
+a:hover{
+text-decoration:underline;
+color : #9B072F;
+}
+a:visited{
+}
+
+/* DEFAULT headers */
+h1 {
+text-align:center;
+font-size:17;
+margin-bottom:6;
+padding-bottom:0;
+}
+h2 {
+text-align:center;
+margin-top:0;
+margin-bottom:1;
+font-size:13;
+}
+h3 {
+font-size:10;
+font-stretch:wider;
+}
+
+/* DEFAULT tables */
+table {
+border: medium groove #015A84 ;
+width=100%;
+margin: auto;
+empty-cells:show;
+font-size:12;
+}
+
+td  {
+/*border-bottom: thin ridge #c0c0c0 ;*/
+border-bottom: thin solid #c0c0c0;
+border-right: thin solid #c0c0c0 ;
+}
+
+td a {
+font-size:12;
+font-weight : bold;
+}
+
+th {
+color:#ffffff;
+background:#015A84;
+vertical-align:top;
+text-align:left;
+}
+
+th a {
+color:#ffffff;
+font-size:12;
+font-weight : bold;
+vertical-align:top;
+text-align:left;
+}
+
+th a:hover{
+text-decoration:underline;
+color : #ffffff;
+}
+
+/* TITLE TOP FRAME style */
+body.title {
+color:#c0c0c0;
+background-color: #015A84;
+background-image:url(images/backgroundtop-nologo.gif);
+}
+
+body.title a {
+text-decoration:none;
+color : #c0c0c0;
+font-weight:bold;
+font-size:11;
+}
+
+body.title H4 {
+color : #c0c0c0;
+font-size : 8;
+font-stretch:normal;
+font-style:oblique;
+}
+
+body.title a:hover {
+text-decoration:none;
+color : white;
+font-weight : bold;
+}
+
+/* LEFT INDEX FRAME style */
+body.index {
+/*background-image:url(images/PRIISMS-Left-Bar-light.jpg);*/
+background-image:url(images/PRIISMS-Left-Bar-Blue.jpg);
+font-weight:normal;
+border-style:none;
+}
+body.index a {
+text-decoration:none;
+color : #000000;
+font-size : 13;
+}
+body.index a:link {
+}
+body.index a:hover{
+color : #015A84;
+font-weight : bold;
+text-decoration:none;
+}
+body.index a:visited{
+}
+
+h1.index {
+text-align:left;
+font-size:17;
+margin-bottom:6;
+padding-bottom:0;
+margin-left:8;
+}
+
+body.index table{
+border-style:none;
+}
+
+body.index td{
+border-style:none;
+}
+
+body.index td a {
+font-weight:normal;
+}
+
+body.index hr{
+margin-left:8;
+padding-right:0;
+}
+
+/* SPLASH FRAME style */
+body.splash {
+/*background-color: #015A84;*/
+background-color:transparent;
+background-image:url(images/splash-blue.jpg);
+background-position:top;
+}
+
+/* EMPTY FRAME style */
+body.empty {
+}
+
+/* TREE TARGET FRAME style */
+body.treetarget {
+}
+
+body.treetarget a{
+text-decoration:none;
+}
+
+/* FIXED BODY style */
+body.fixed {
+background:#ffffff;
+font-family:courier;
+}
+
+/* VIEW tables */
+td.view {
+font-size:12;
+font-family:verdana;arial;sans-serif;serif;
+border-botton: thin solid #c0c0c0;
+text-align:left;
+}
+
+/* PAGING tables */
+table.paging {
+border-style: none;
+}
+table.paging td {
+border-style: none;
+}
+table.paging input {
+width:15ex;
+}
+table.paging input.long {
+width:20ex;
+}
+table.paging input.longer {
+width:34ex;
+}
+table.paging input.text {
+width:8ex;
+}
+
+/* NO BORDERS tables */
+table.noborders {
+border-style: none;
+width:75%;
+}
+table.noborders td {
+border-style: none;
+vertical-align:top;
+text-align:left;
+}
+table.noborders table {
+border-style:none;
+text-align:left;
+width:100%;
+}
+table.noborders table td {
+text-align: center;
+width:100%;
+}
+
+/* BUTTON tables */
+table.buttons {
+border-style: none;
+text-align:center;
+}
+
+table.buttons td {
+border-style: none;
+text-align:center;
+}
+
+table.buttons input {
+width:15ex;
+}
+table.buttons input.long {
+width:20ex;
+}
+table.buttons input.longplus {
+width:24ex;
+}
+table.buttons input.longer {
+width:34ex;
+}
+
+/* FORM BUTTON */
+form.buttons {
+text-align:center;
+}
+form.buttons input {
+text-align:center;
+}
+
+/* ASSIGNMENTS / ASSIGNED tables */
+table.assignments {
+border-style:none;
+width:100%;
+}
+table.assignments table{
+width:100%;
+margin:auto;
+/*border-style:none;*/
+}
+table.assigned {
+text-align:left;
+vertical-align:top;
+border-style:none;
+}
+table.assignments td.assigned {
+text-align:left;
+vertical-align:top;
+border-style:none;
+}
+/**********************************/
+table.assignments td.paging {
+border-style:none;
+}
+/* LOGIN tables */
+table.login {
+width:50%;
+margin:auto;
+/*border-style:none;*/
+}
+
+table.login td{
+border-style:none;
+}
+/* ********* Grouping tables ************ */
+table.grouping {
+border-style: none;
+width:100%;
+margin: auto;
+}
+table.grouping td {
+border-style: none;
+/*vertical-align:top;
+text-align:left;*/
+border-bottom: thin solid #c0c0c0;
+border-right: thin solid #c0c0c0 ;
+}
+table.grouping table {
+border-style:none;
+text-align:left;
+width:100%;
+}
+table.grouping table td {
+/*text-align: left;
+width:100%;*/
+border-bottom: thin solid #c0c0c0;
+border-right: thin solid #c0c0c0 ;
+}
+table.grouping td.exception {
+border-style: none;
+}
+td.exception {
+border-style: none;
+}

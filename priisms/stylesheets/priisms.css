@@ -1,0 +1,322 @@
+body	{padding:0px;margin:0px;background:#fff; font-family:verdana, arial, sans-serif; font-size:1em;}
+body h1	{	text-align:left; padding:8px; font-size:18px; background:#015A84; color:white;  margin:0px;}
+body h2	{	text-align:left; padding:4px 8px; font-size:12px; background:#cfc6ae; color:black;  margin:0px;}
+body h3	{ background:#FBFBEB url(../images/subheader_background.png) bottom left repeat-x; padding:8px; margin:0px; font-weight:normal; border-top:1px solid #cfc6ae;}
+
+.hide	{display:none;}
+
+div#divSearchTables	{ margin-top:20px; }
+div.table_wrapper	{ padding:16px 8px; }
+body.index div.table_wrapper, td div.table_wrapper { padding:0px;}
+html body.title div#LBB, html body.title div#LBB div	{display:none;}
+
+div#divSearch a, div#divSearch a:link,div#divSearch a:visited,
+div#divCurrentActivity a, div#divCurrentActivity a:link,div#divCurrentActivity a:visited,
+div#divRecentActivity a, div#divRecentActivity a:link,div#divRecentActivity a:visited	{ color:#015A84;}
+div#divSearch, div#divCurrentActivity, div#divRecentActivity	{ margin-right:8px; border:1px solid #333; border-bottom:0px; padding:5px; display:inline; background: #ececec;}
+
+/* Title Styles \/ */
+html body.title { background:#dadada url(../images/title_background.png) top left repeat-x; }
+body.title h4 {	color : #c0c0c0;	font-size : 8px;	position:absolute; 	top:2.5em;	left:42em;	text-align:right; vertical-align:middle;}
+body.title div	{position: absolute; top: 11px; right: 12px; text-align:right; font-weight:normal; font-size:9px;  }
+/* + left links */
+html body.title a, html body.title a:visited, html body.title strong { color: black; font-weight:normal; font-size:11px;}
+body.title a:hover, body.title a:visited:hover { color: #333; font-weight:normal; text-decoration:underline;}
+body.title a.logo_link, body.title a.logo_link:hover, body.title a.logo_link:visited	{ display:block; height:37px; padding-left:60px; color:#AC2627; padding-top:5px; font-size:18px; font-weight:bold; background:url(../images/ion_logo.png) top left no-repeat; text-decoration:none;}
+body.title a.logo_link img	{display:none;}
+body.title a.logo_link:hover	{ text-decoration:none;}
+
+
+hr	{display:none;}
+div.tabs	{ margin-left:8px; margin-top:20px; margin-right:8px; padding-bottom:4px; border-bottom:1px solid black;}
+
+/* Index Styes  \/ */
+html body.index	{ background:#D4DDE5; background-image:none; padding-bottom:40px;}
+html body.index a {	text-decoration:none;	color: black;	font-size: 11px; }
+html body.index div.Level1:hover a	{	font-weight:normal;	color:black; }
+html body.index div.Level1.current_navigation, html body.index div.Level2.current_navigation {	color: black; 	background: #7384ab url(../images/nav_highlight.png) top left repeat-x;	font-weight:normal;	text-decoration:none; }
+
+html body.index div.Level2.current_navigation a, html body.index div.Level2.current_navigation a:visited, html body.index div.Level1.current_navigation a, html body.index div.Level1.current_navigation a:visited	{ color:white; }
+html body.index div.Level1	{ padding:4px 4px 4px 0px; margin-left:8px;}
+html body.index div.Level1	a { padding-left:14px;}
+html body.index div.Level1.toggleable_closed	a { background: transparent url(../images/arrow_collapse.gif) no-repeat scroll left center; }
+html body.index div.Level1.toggleable_open a	{ background: transparent url(../images/arrow_expand.gif) no-repeat scroll left center; }
+html body.index div.Level2	{padding:4px; margin-left:28px;}
+html body.index div.Level1 img	{display:none; }	
+body.index div.Level2 a:hover	{color:black; font-weight:normal;}
+body.index div.Level2	{ margin-left:8px;}
+body.index div.Level2 img	{display:none;}
+body.index h1.index {	color:black;	text-align:left;	font-size:11px;	margin:6px 0px; }
+body.index table{ border-style:none; width:100%; }
+body.index td{ border-style:none; }
+body.index td a { font-weight:normal; }
+
+/*form	{ margin:8px; }
+form .table_wrapper	{ padding:16px 0px;}
+
+*/
+
+/* Login Styes  \/ */
+table.login { width:300px; margin:auto; }
+table.login input	{width:200px;}
+
+html .SCROLLINGTABLE	{ margin:8px; overflow:auto;}
+
+.SCROLLINGTABLE .table_wrapper { padding:0px;}
+html div.ActionPane	{background:white; padding:16px 8px;}
+html table.paging td	{ vertical-align:baseline; }
+
+/*  /\ clean styles | dirty styles \/  */
+
+
+
+/* DEFAULT divisions */
+div.Level1 {
+padding-left: 5px;
+}
+div.Level2 {
+padding-left: 25px;
+}
+div.Level3 {
+padding-left: 45px;
+}
+div.Level4 {
+padding-left: 65px;
+}
+/* DEFAULT image */
+img {
+border:0
+}
+
+/* DEFAULT links */
+a {
+text-decoration:none;
+color : #015A84;
+font-size : 13;
+}
+a:link {
+}
+a:hover{
+text-decoration:underline;
+color : #9B072F;
+}
+a:visited{
+}
+
+/* DEFAULT headers */
+body.index h1 {
+text-align:center;
+font-size:17;
+margin-bottom:6;
+padding-bottom:0;
+background:transparent;
+padding:auto;
+border-bottom:0px;
+}
+h2 {
+text-align:center;
+margin-top:0;
+margin-bottom:1;
+font-size:13;
+}
+h3 {
+font-size:10;
+font-stretch:wider;
+}
+
+/* DEFAULT tables */
+table {
+/*	width: 100%;*/
+	font-size:10px;
+	padding:0px;
+	margin:0px;
+}
+
+td, td a {
+	font-size:10px;
+	font-weight: normal;
+}
+
+th {
+	color:#ffffff;
+	background:#015A84;
+	vertical-align:top;
+	text-align:left;
+	font-weight : bold;
+}
+
+th a:hover{
+	text-decoration:underline;
+	color: #ffffff;
+}
+
+
+
+
+
+
+/* SPLASH FRAME style */
+body.splash {
+/*background-color: #015A84;*/
+background-color:transparent;
+background-image:url(http://demo.ion-networks.com/priisms/images/splash-blue.jpg);
+background-position:top;
+}
+
+/* EMPTY FRAME style */
+body.empty {
+}
+
+/* TREE TARGET FRAME style */
+body.treetarget {
+}
+
+body.treetarget a{
+text-decoration:none;
+}
+
+/* FIXED BODY style */
+body.fixed {
+background:#ffffff;
+font-family:courier;
+}
+
+/* VIEW tables */
+td.view {
+font-size:12;
+font-family:verdana,arial;sans-serif;serif;
+border-bottom: thin solid #c0c0c0;
+text-align:left;
+}
+
+/* PAGING tables */
+table.paging {
+border-style: none;
+}
+table.paging td {
+border-style: none;
+}
+table.paging input {
+width:15ex;
+}
+table.paging input.long {
+width:20ex;
+}
+table.paging input.longer {
+width:34ex;
+}
+table.paging input.text {
+width:8ex;
+}
+
+/* NO BORDERS tables */
+table.noborders {
+border-style: none;
+width:75%;
+}
+table.noborders td {
+border-style: none;
+vertical-align:top;
+text-align:left;
+}
+table.noborders table {
+border-style:none;
+text-align:left;
+width:100%;
+}
+table.noborders table td {
+text-align: center;
+width:100%;
+}
+
+/* BUTTON tables */
+table.buttons {
+border-style: none;
+text-align:center;
+}
+
+table.buttons td {
+border-style: none;
+text-align:center;
+}
+
+table.buttons input {
+width:15ex;
+}
+table.buttons input.long {
+width:20ex;
+}
+table.buttons input.longplus {
+width:24ex;
+}
+table.buttons input.longer {
+width:34ex;
+}
+
+/* FORM BUTTON */
+form.buttons {
+text-align:center;
+}
+form.buttons input {
+text-align:center;
+}
+
+/* ASSIGNMENTS / ASSIGNED tables */
+table.assignments {
+border-style:none;
+width:100%;
+}
+table.assignments table{
+width:100%;
+margin:auto;
+/*border-style:none;*/
+}
+table.assigned {
+text-align:left;
+vertical-align:top;
+border-style:none;
+}
+table.assignments td.assigned {
+text-align:left;
+vertical-align:top;
+border-style:none;
+}
+/**********************************/
+table.assignments td.paging {
+border-style:none;
+}
+/* LOGIN tables */
+
+table.login td{
+border-style:none;
+}
+/* ********* Grouping tables ************ */
+table.grouping {
+border-style: none;
+width:100%;
+margin: auto;
+}
+table.grouping td {
+border-style: none;
+/*vertical-align:top;
+text-align:left;*/
+border-bottom: thin solid #c0c0c0;
+border-right: thin solid #c0c0c0 ;
+}
+table.grouping table {
+border-style:none;
+text-align:left;
+width:100%;
+}
+table.grouping table td {
+/*text-align: left;
+width:100%;*/
+border-bottom: thin solid #c0c0c0;
+border-right: thin solid #c0c0c0 ;
+}
+table.grouping td.exception {
+border-style: none;
+}
+td.exception {
+border-style: none;
+}

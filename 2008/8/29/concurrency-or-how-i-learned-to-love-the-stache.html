@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verify-v1" content="Bc4AjbA7fP99FZrNjdg2oYqi+4u8gaz7irgFAOOLHbo=" />
+<title>
+  Iterative Designs 
+  
+  
+    - Concurrency or How I Learned to Love the 'Stache
+  
+</title>
+<link rel="alternate" type="application/atom+xml" title="Iterative Designs feed" href="/feed/atom.xml"/>
+<link rel="alternate" type="application/atom+xml" title="Iterative Designs comments feed" href="/feed/all_comments.xml"/>
+<link href="/stylesheets/base.css" rel="stylesheet" type="text/css" />
+<script src="/javascripts/app.js" type="text/javascript"></script>
+<script src="/javascripts/FancyZoom.js" type="text/javascript"></script>
+<script src="/javascripts/FancyZoomHTML.js" type="text/javascript"></script>
+<!--[if IE]>
+<link href="/stylesheets/base_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script src="/javascripts/jquery-1.2.6.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.pushup.js" type="text/javascript"></script>
+<link rel='stylesheet' type='text/css' href='/stylesheets/pushup.css' />
+
+</head>
+<body onload="setupZoom()">
+	<div id="pagewrap">
+		<div id="border_wrap">
+    		<div id="header">	</div>
+			<div class="menu_wrap">
+			   <div class="menu">
+			     <ul>
+					
+					  
+					    <li><a class="selected" href="/" title="Home">Home</a></li>
+					  
+					
+					  
+					    <li><a href="/products" title="Products">Products</a></li>
+					  
+					
+					  
+					    <li><a href="/services" title="Services">Services</a></li>
+					  
+					
+					  
+					    <li><a href="/clients" title="Clients">Clients</a></li>
+					  
+					
+					  
+					    <li><a href="/meet" title="Meet">Meet</a></li>
+					  
+					
+					  
+					    <li><a href="/work" title="Blog">Blog</a></li>
+					  
+					
+					  
+					    <li><a href="/contact" title="Contact">Contact</a></li>
+					  
+					
+			     </ul>
+			   </div>
+			</div>
+		
+		    <div id="container" class="clearfix">
+		    	<div id="content">
+
+					<div class="clearfix article">
+	 
+	
+
+	 
+	<div class="">
+	
+
+	  <h2 class="title"><a href="/2008/8/29/concurrency-or-how-i-learned-to-love-the-stache" title="Concurrency or How I Learned to Love the 'Stache">Concurrency or How I Learned to Love the 'Stache</a></h2>
+	  <div class="body">
+	    <p><center><object width="400" height="300">	<param name="allowfullscreen" value="true" />	<param name="allowscriptaccess" value="always" />	<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1627162&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" />	<embed src="http://vimeo.com/moogaloop.swf?clip_id=1627162&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><br /><a href="http://vimeo.com/1627162?pg=embed&amp;sec=1627162">Concurrency or "How I learned to love the 'stache"</a> from <a href="http://vimeo.com/user709697?pg=embed&amp;sec=1627162">Chris Williams</a> on <a href="http://vimeo.com?pg=embed&amp;sec=1627162">Vimeo</a>.</center></p>
+
+<p>We are always looking for ways to improve our knowledge base as well as make new friends and help them see different lights (maybe not better lights, but different). A big part of this is reaching an increasingly larger group of people and trying to convey the morsels of information goodness we have found along the way. Our current push as you may know from chatting with us, is the exposure of <a href="http://erlang.org/">Erlang</a> and how the lessons within the language are valuable for all languages. We could (and sometimes do) wax poetically about the values of non-shared state and data and how concurrency will change the world, but we decided to present it to the people in a seminar style. </p>
+
+<p>We devised a talk with the following sales pitch, </p>
+<blockquote>"An indepth technical discussion about concurrency and why it matters in modern web and general programming environments. With the upcoming Ruby 1.9 release and Rails 2.2/3.0 with thread safety, concurrency should be on the mind of every Ruby programmer. This talk will go into a discussion of what the different types of threads are, what precautions or advice you should carry with you as you write concurrent code, and why you should be looking into other fundamentally different languages (like erlang or scala) for long running, complex, and multi faceted requests. Topics will include Fuzed and why it represents an exciting shift in hosting options and a telnet chat client, which will be used as a backchannel during the demonstration. The goal is not to scary you, but to help you see the forest despite the concurrent trees."</blockquote>
+
+<p>We are presenting this talk at the local area user groups, <a href="http://www.novarug.org/articles/2008/08/24/how-i-learned-to-love-the-stache">NOVARUG</a> and <a href="http://actsascommunity.com/events/19/profile">DCRUG</a>, as well as the NOVA Languages group. Each time we do this presentation it grows, expands, and becomes more kick ass based on audience feedback. I unfortunately forgot to record NOVARUG's presentation, but will record the DCRUG one and post it to our blog when it is ready. Until then, we have provided our first cut of the presentation here for your viewing and listening pleasure (and as part of our world dominance plan for functional programming!!!). We want to try to evangelize the benefits of at least looking at different languages and understanding why they are different. If you are interested in having us present to you, your local user group, or your company, send us an email at <script type="text/javascript">
+/* <![CDATA[ */
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=);''):-1thnglee.od(kAtarche.od?kthnglee.od<k(ix+e=od}ki)t("+
+"rAha.cdeko)++1(iAtarche.od=kx+){=2i+);-1thnglee.od(ki<0;i=r(fo';=';x\\\"\\"+
+"\\;)'':)1-htgnel.edok(tArahc.edok?htgnel.edok<i(+x=edok})i(tArahc.edok+)1+"+
+"i(tArahc.edok=+x{)2=+i;)1-htgnel.edok(<i;0=i(rof;''=x;\\\\;\\\\\\\"\\\\\\"+
+"\\\\\\\\\\\\\\\\\\\\\\\\\"a\\\\<)o> /om cntidesegisadevittr ta ta\\\\m\\\\"+
+"\\\"e\\\\\\\\>\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\r\\\\\\\\t\\\\feeutuu yhw h"+
+"o  uotsLs\\\\ \\\\\\\\e\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\e\\\\\\\\t"+
+"\\\\t=\\\\l\\\\\\\"i\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\!\\\\\\\\t\\"+
+"\\g!lsehoi  em stetsao  =ncwjIut?eob.snmicesegisadevitmret:@taitmo\\\\l\\"+
+"\\\\\\a\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\f\\\\\\\\r\\\\ =<e(h\\\\a\\"+
+"\\\\\\\\\\\\\\\\\\\\\"e\\\\itwrt.enumoc=d\\\"\\\\\\\\\\\\edok\\\"\\\\e=od"+
+"\\\"kk;do=eokeds.lpti'()'r.verees)(j.io(n'')\";x='';for(i=0;i<(kode.length"+
+"-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.ch"+
+"arAt(kode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+/* ]]> */
+</script>.</p>
+
+<p>The <a href="http://s3.amazonaws.com/iterativedesigns/Concurrency.pdf">slides for this presentation</a> are also available in their most current form for your entertainment!</p>
+	  </div>
+
+	</div>
+<span class="addthis">
+<!-- AddThis Button BEGIN -->
+<script type="text/javascript">addthis_pub  = 'voodootikigod';</script>
+<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-share.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+<!-- AddThis Button END -->
+</span>
+
+  <div class="footer">
+        <span>0 Comments</span>
+	<span>Written by voodootikigod on August 29th, 2008 @ 11:37 AM</span>
+	    <span>Filed under: <a href="/work" title="Blog">Blog</a></span>
+	  
+   
+  </div>
+</div>
+
+
+
+
+
+				</div>
+			</div>
+			<div class="menu_wrap">
+			   <div class="menu">
+			     <ul>
+					
+					  
+					    <li><a class="selected" href="/" title="Home">Home</a></li>
+					  
+					
+					  
+					    <li><a href="/products" title="Products">Products</a></li>
+					  
+					
+					  
+					    <li><a href="/services" title="Services">Services</a></li>
+					  
+					
+					  
+					    <li><a href="/clients" title="Clients">Clients</a></li>
+					  
+					
+					  
+					    <li><a href="/meet" title="Meet">Meet</a></li>
+					  
+					
+					  
+					    <li><a href="/work" title="Blog">Blog</a></li>
+					  
+					
+					  
+					    <li><a href="/contact" title="Contact">Contact</a></li>
+					  
+					
+			     </ul>
+			   </div>
+			</div>
+	    </div>
+        <div id="credits">
+			Copyright &copy; 2007-2008 <a href="https://www.iterativedesigns.com"><img src="/images/id_micro_badge.gif"></a> - All Rights Reserved
+		</div>
+	</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1264213-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

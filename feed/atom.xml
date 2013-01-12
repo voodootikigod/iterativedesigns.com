@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Iterative Designs - Home</title>
+  <id>tag:www.iterativedesigns.com,2009:mephisto/</id>
+  <generator version="0.8.0" uri="http://mephistoblog.com">Mephisto Drax</generator>
+  <link href="http://www.iterativedesigns.com/feed/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://www.iterativedesigns.com/" rel="alternate" type="text/html"/>
+  <updated>2008-10-14T20:40:44Z</updated>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-10-14:488</id>
+    <published>2008-10-14T20:37:00Z</published>
+    <updated>2008-10-14T20:40:44Z</updated>
+    <category term="Meet"/>
+    <link href="http://www.iterativedesigns.com/2008/10/14/barcamp-dc" rel="alternate" type="text/html"/>
+    <title>BarCamp DC</title>
+<summary type="html">&lt;a href=&quot;http://www.barcampdc.org/&quot;&gt;&lt;img src=&quot;http://www.iterativedesigns.com/assets/2008/10/14/barcampdc.jpg&quot; /&gt;&lt;/a&gt;</summary><content type="html">
+            &lt;a href=&quot;http://www.barcampdc.org/&quot;&gt;&lt;img src=&quot;http://www.iterativedesigns.com/assets/2008/10/14/barcampdc.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www. barcampdc.org&quot;&gt;&lt;strong&gt;BarCamp DC Fall 2008&lt;/strong&gt;&lt;/a&gt;
+&lt;p&gt;From their site, &quot;BarCamp DC is an ad-hoc unconference and is part of the larger BarCamp movement. While there are topics suggested for discussion, there is no set agenda until everyone gathers. Attendees are required to participate to some degree: either by giving a presentation, demo, etc. or by facilitating a group discussion. Topics are flexible, as well.&quot;&lt;/p&gt;
+
+&lt;p&gt;We are once again happy to sponsor the BarCamp style movement in DC. We are looking forward to this exciting event and can't wait to see how it goes!&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-08-29:487</id>
+    <published>2008-08-29T15:37:00Z</published>
+    <updated>2008-08-30T14:18:38Z</updated>
+    <category term="Blog"/>
+    <link href="http://www.iterativedesigns.com/2008/8/29/concurrency-or-how-i-learned-to-love-the-stache" rel="alternate" type="text/html"/>
+    <title>Concurrency or How I Learned to Love the 'Stache</title>
+<content type="html">
+            &lt;p&gt;&amp;lt;center&gt;&amp;lt;object height=&quot;300&quot; width=&quot;400&quot;&gt;	&amp;lt;param /&gt;	&amp;lt;param /&gt;	&amp;lt;param /&gt;	&amp;lt;embed src=&quot;http://vimeo.com/moogaloop.swf?clip_id=1627162&amp;amp;amp;server=vimeo.com&amp;amp;amp;show_title=1&amp;amp;amp;show_byline=1&amp;amp;amp;show_portrait=0&amp;amp;amp;color=&amp;amp;amp;fullscreen=1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&amp;lt;/embed&gt;&amp;lt;/object&gt;&lt;br /&gt;&lt;a href=&quot;http://vimeo.com/1627162?pg=embed&amp;amp;amp;sec=1627162&quot;&gt;Concurrency or &quot;How I learned to love the 'stache&quot;&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user709697?pg=embed&amp;amp;amp;sec=1627162&quot;&gt;Chris Williams&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com?pg=embed&amp;amp;amp;sec=1627162&quot;&gt;Vimeo&lt;/a&gt;.&amp;lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;We are always looking for ways to improve our knowledge base as well as make new friends and help them see different lights (maybe not better lights, but different). A big part of this is reaching an increasingly larger group of people and trying to convey the morsels of information goodness we have found along the way. Our current push as you may know from chatting with us, is the exposure of &lt;a href=&quot;http://erlang.org/&quot;&gt;Erlang&lt;/a&gt; and how the lessons within the language are valuable for all languages. We could (and sometimes do) wax poetically about the values of non-shared state and data and how concurrency will change the world, but we decided to present it to the people in a seminar style. &lt;/p&gt;
+
+&lt;p&gt;We devised a talk with the following sales pitch, &lt;/p&gt;
+&lt;blockquote&gt;&quot;An indepth technical discussion about concurrency and why it matters in modern web and general programming environments. With the upcoming Ruby 1.9 release and Rails 2.2/3.0 with thread safety, concurrency should be on the mind of every Ruby programmer. This talk will go into a discussion of what the different types of threads are, what precautions or advice you should carry with you as you write concurrent code, and why you should be looking into other fundamentally different languages (like erlang or scala) for long running, complex, and multi faceted requests. Topics will include Fuzed and why it represents an exciting shift in hosting options and a telnet chat client, which will be used as a backchannel during the demonstration. The goal is not to scary you, but to help you see the forest despite the concurrent trees.&quot;&lt;/blockquote&gt;
+
+&lt;p&gt;We are presenting this talk at the local area user groups, &lt;a href=&quot;http://www.novarug.org/articles/2008/08/24/how-i-learned-to-love-the-stache&quot;&gt;NOVARUG&lt;/a&gt; and &lt;a href=&quot;http://actsascommunity.com/events/19/profile&quot;&gt;DCRUG&lt;/a&gt;, as well as the NOVA Languages group. Each time we do this presentation it grows, expands, and becomes more kick ass based on audience feedback. I unfortunately forgot to record NOVARUG's presentation, but will record the DCRUG one and post it to our blog when it is ready. Until then, we have provided our first cut of the presentation here for your viewing and listening pleasure (and as part of our world dominance plan for functional programming!!!). We want to try to evangelize the benefits of at least looking at different languages and understanding why they are different. If you are interested in having us present to you, your local user group, or your company, send us an email at &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://s3.amazonaws.com/iterativedesigns/Concurrency.pdf&quot;&gt;slides for this presentation&lt;/a&gt; are also available in their most current form for your entertainment!&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-08-14:486</id>
+    <published>2008-08-14T22:27:00Z</published>
+    <updated>2008-09-03T03:29:34Z</updated>
+    <category term="Meet"/>
+    <link href="http://www.iterativedesigns.com/2008/8/14/ruby-dcamp-2008" rel="alternate" type="text/html"/>
+    <title>Ruby DCamp 2008</title>
+<summary type="html">&lt;a href=&quot;http://www.rubydcamp.org/&quot;&gt;&lt;img src=&quot;http://iterativedesigns.com/assets/2008/9/3/hack_sponsor.png&quot; /&gt;&lt;/a&gt;</summary><content type="html">
+            &lt;a href=&quot;http://www.rubydcamp.org/&quot;&gt;&lt;img src=&quot;http://iterativedesigns.com/assets/2008/9/3/hack_sponsor.png&quot; /&gt;&lt;/a&gt;
+    
+&lt;a href=&quot;http://www.rubydcamp.org&quot;&gt;&lt;strong&gt;Ruby DCamp 2008&lt;/strong&gt;&lt;/a&gt;
+&lt;p&gt;From their site, &quot;If you're experienced with Ruby then you know what you like about the language. But even more importantly you know what needs work! Here's your big chance! Gather with other experienced Rubyists, discuss what's broken, decide how to fix it, and then start down that path together.&quot;&lt;/p&gt;
+
+&lt;p&gt;We are quite excited about this event because we feel that it will bring some of the &quot;weird&quot; that we absolutely loved at &lt;a href=&quot;http://www.rubyfringe.com&quot;&gt;RubyFringe&lt;/a&gt; to the DC area. We are sponsoring the event at the double secret gold status, which I think means that we are on the roll to go for Micheal Phelps 8 Gold Sponsorship next year -- or is that in four years. If you are in the area, definitely join us at this event, we are working very hard with &lt;a href=&quot;http://evan.tiggerpalace.com/&quot;&gt;Evan Light&lt;/a&gt; to ensure that the event is stellar and you might even learn something (can't promise it though).&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-08-14:485</id>
+    <published>2008-08-14T17:16:00Z</published>
+    <updated>2008-08-14T22:03:24Z</updated>
+    <category term="Clients"/>
+    <link href="http://www.iterativedesigns.com/2008/8/14/entra-health-systems" rel="alternate" type="text/html"/>
+    <title>Entra Health Systems</title>
+<summary type="html">&lt;a href=&quot;http://www.entrahealthsystems.com&quot;&gt;Entra Health Systems&lt;/a&gt; seeks to improve healthcare management through the application of technology. They provide a variety of services within the healthcare industry including patient services automation and chronic disease management. Entra Health Systems also has a Intellectual Property Marketing solutions branch that bridges the gap between inventor and the healthcare market. Iterative Designs has had the pleasure to work very intimately with Entra Health Sysetms on a wide spectrum of projects.</summary><content type="html">
+            &lt;a href=&quot;http://www.entrahealthsystems.com&quot;&gt;Entra Health Systems&lt;/a&gt; seeks to improve healthcare management through the application of technology. They provide a variety of services within the healthcare industry including patient services automation and chronic disease management. Entra Health Systems also has a Intellectual Property Marketing solutions branch that bridges the gap between inventor and the healthcare market. Iterative Designs has had the pleasure to work very intimately with Entra Health Sysetms on a wide spectrum of projects.
+&lt;p&gt;&lt;a href=&quot;http://www.entrahealthsystems.com&quot;&gt;Entra Health Systems&lt;/a&gt; (EHS) seeks to improve healthcare management through the application of technology. They provide a variety of services within the healthcare industry including patient services automation and chronic disease management. EHS also has a Intellectual Property Marketing solutions branch that bridges the gap between inventor and the healthcare market. Iterative Designs has had the pleasure to work very intimately with EHS on a wide spectrum of projects.&lt;/p&gt;
+&lt;p&gt;Entra Health Systems was seeking a new, revitalized web presence to express their premier healthcare technology and intellectual property marketing efforts. We worked with them to identify the visual presence and concept that they were seeking and overlaid that design onto an established content management system. This empowers EHS to add, update, and remove content without a middle man, making their web publication process very fluid, natural, and efficient.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Services Provided:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Information Technology Subject Matter Expertise for Intellectual Property Marketing and Commercialization&lt;/li&gt;
+&lt;li&gt;Sales Assistance for Intellectual Property&lt;/li&gt;
+&lt;li&gt;Website Design&lt;/li&gt;
+&lt;li&gt;Content Management System Theme&lt;/li&gt;
+&lt;li&gt;Hosting Setup and Configuration&lt;/li&gt;
+&lt;li&gt;Subversion SCM setup and configuration&lt;/li&gt;
+&lt;/ul&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-08-12:484</id>
+    <published>2008-08-12T03:27:00Z</published>
+    <updated>2008-09-02T19:56:40Z</updated>
+    <category term="Blog"/>
+    <link href="http://www.iterativedesigns.com/2008/8/12/announcing-the-great-erlang-out-event" rel="alternate" type="text/html"/>
+    <title>Announcing the great erlang:out event</title>
+<content type="html">
+            &lt;p&gt;The &lt;a href=&quot;http://groups.google.com/group/novalanguages&quot; title=&quot;NoVA Languages&quot;&gt;Northern Virginia Languages Group&lt;/a&gt; will be holding as its culmination of the Erlang Language the Great erlang:out Event. It will be a 9AM-6PM Hackfest (maybe longer) of Erlang project development. The project has not yet been decided and we will be learning as much as we can between now and the event date (tentatively September 20th, 2008) in preparation of building the next killer app for Erlang, assuming &lt;a href=&quot;http://incubator.apache.org/couchdb/&quot;&gt;CouchDB&lt;/a&gt;, &lt;a href=&quot;http://www.facebook.com/notes.php?id=9445547199&quot;&gt;Facebook chat&lt;/a&gt;, and &lt;a href=&quot;http://www.ejabberd.im/&quot;&gt;ejabberd&lt;/a&gt; are the existing killer apps. Stay tuned to join us and we might be looking for beer/pizza/etc sponsorships. This event will by no means be centralized (like Erlang itself) we will be doing remote commits and changes - more details to come either on the NoVA Languages Group Google Group (link above) and the Iterative Designs blog, which you are reading right now.&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-08-09:483</id>
+    <published>2008-08-09T05:14:00Z</published>
+    <updated>2008-08-09T17:24:39Z</updated>
+    <category term="Blog"/>
+    <link href="http://www.iterativedesigns.com/2008/8/9/you-made-two-hours-happy" rel="alternate" type="text/html"/>
+    <title>You Made Two Hours Happy</title>
+<content type="html">
+            &lt;p&gt;We want to thank all of the people who attended the RubyNation Happy Hour. We had a great time and hope you did as well. With the tremendous support of &lt;a href=&quot;http://www.blueboxgrid.com&quot;&gt;Blue Box Group&lt;/a&gt; and &lt;a href=&quot;http://www.hotel-sierra.com&quot;&gt;Hotel Sierra&lt;/a&gt;, we were able to pull of a great couple of happy hours. Special thanks go out to Ken Henderson for all of his help and effort to arrange the day of festivities. We have made a &lt;a href=&quot;http://flickr.com/photos/tags/rubynationhappyhour/&quot;&gt;rubynationhappyhour&lt;/a&gt; tag on flickr, so if you have more pictures of the event please post them with that tag! Thanks!&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;center&gt;&lt;img src=&quot;http://iterativedesigns.com/assets/2008/8/9/RubyNation-aftermath.jpg&quot; /&gt;&amp;lt;/center&gt;
+&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-07-24:20</id>
+    <published>2008-07-24T15:41:00Z</published>
+    <updated>2008-07-25T22:02:50Z</updated>
+    <category term="Blog"/>
+    <category term="happy hour"/>
+    <category term="ruby"/>
+    <category term="rubynation"/>
+    <link href="http://www.iterativedesigns.com/2008/7/24/why-limit-happy-to-just-an-hour" rel="alternate" type="text/html"/>
+    <title>Why limit happy to just an hour?</title>
+<content type="html">
+            &lt;p&gt;As you may know we have a bit of the taste for great craft brews and a desire to support and if possible inspire communities of social tech. We previously announced that we are sponsoring the &lt;a href=&quot;http://www.rubynation.org&quot;&gt;RubyNation&lt;/a&gt; conference in Herndon, VA, but we decided to go even a bit further. We are co-sponsoring with &lt;a href=&quot;http://www.blueboxgrid.com&quot;&gt;Blue Box Group&lt;/a&gt; the conference happy hour. The event will be the night of Friday, August 1, 2008 from 6pm - 8pm at &lt;a href=&quot;http://www.hotel-sierra.com/locations/washington_dulles/default.aspx&quot;&gt;Hotel Sierra&lt;/a&gt; in &lt;a href=&quot;http://www.hotel-sierra.com/locations/washington_dulles/driving_directions.aspx&quot;&gt;Dulles Virginia&lt;/a&gt;. We are opening the invitation up to anyone who would like to come, but please if you are planning on joining but not able to make it to the conference, can you send us an &lt;a href=&quot;mailto:info@iterativedesigns.com&quot;&gt;email to let us know&lt;/a&gt;. We would appreciate the heads up so we can make sure the hotel does not flip out. Looking forward to seeing you there!&lt;/p&gt;
+&lt;p&gt;&amp;lt;center&gt;&lt;img src=&quot;http://iterativedesigns.com/assets/2008/7/22/RubyNation-Invite.png&quot; /&gt;&amp;lt;/center&gt;&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-07-22:19</id>
+    <published>2008-07-22T02:00:00Z</published>
+    <updated>2008-08-09T17:13:23Z</updated>
+    <category term="Blog"/>
+    <link href="http://www.iterativedesigns.com/2008/7/22/fringed-out" rel="alternate" type="text/html"/>
+    <title>Fringed Out</title>
+<content type="html">
+            &lt;p&gt;&amp;lt;center&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3249/2686437280_8e99514a70.jpg&quot; /&gt;&amp;lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;I just got back from &lt;a href=&quot;http://rubyfringe.com/&quot;&gt;RubyFringe&lt;/a&gt; and it was without question the greatest conference I have ever had the pleasure of attending. I am sure you have seen the postings through the &lt;a href=&quot;http://rethink.unspace.ca/2008/7/20/we-are-rubyfringe&quot;&gt;Internet&lt;/a&gt;, so I will try to not repeat the wild applause for the event. This is how I have always hoped conference would be and were always seriously let down. The entire weekend was an incredible blast of energy, excitement, and meticulously crafted perfection. My hat is off to &lt;a href=&quot;http://www.unspace.com&quot;&gt;unspace&lt;/a&gt; and the fringe community - I am honored and proud to be a member. I learned a lot about merb and other technologies that I have seriously wanted to just dig into, but never could find the time. I met a lot of awesome people, with awesome stories, and &lt;a href=&quot;http://www.myttc.ca&quot;&gt;very cool projects&lt;/a&gt;. I think I started like 5 applications at this conference, hopefully I will finish one of them -- some day.&lt;/p&gt;
+&lt;p&gt;If they do this again and I very much hope they do, I will definitely be getting the tickets the day its announced, its the only conference I have been too that I came back feeling refreshed despite very little (read in no) sleep. The Ruby community and programming world in general is a much, much better place thanks to RubyFringe.&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-07-04:18</id>
+    <published>2008-07-04T17:22:00Z</published>
+    <updated>2008-07-04T17:27:09Z</updated>
+    <category term="Meet"/>
+    <link href="http://www.iterativedesigns.com/2008/7/4/rubynation-2008" rel="alternate" type="text/html"/>
+    <title>RubyNation 2008</title>
+<summary type="html">&lt;a href=&quot;http://www.rubynation.org/&quot;&gt;&lt;img src=&quot;http://www.rubynation.org/images/conference/badges/ruby_sponsor.png&quot; /&gt;&lt;/a&gt;</summary><content type="html">
+            &lt;a href=&quot;http://www.rubynation.org/&quot;&gt;&lt;img src=&quot;http://www.rubynation.org/images/conference/badges/ruby_sponsor.png&quot; /&gt;&lt;/a&gt;
+    
+&lt;a href=&quot;http://www.rubynation.org&quot;&gt;&lt;strong&gt;RubyNation 2008&lt;/strong&gt;&lt;/a&gt;
+&lt;p&gt;From their site, &quot;RubyNation is an annual Ruby conference serving the Virginia, West Virginia, Maryland, and Washington, DC areas. This year's RubyNation will happen on August 1 and 2, 2008 in Herndon, VA.&quot;&lt;/p&gt;
+&lt;p&gt;This conference is seriously right in our backyard (and down the Toll Road), and we believe it is a great thing for the blossoming Ruby community in the Washington DC metro area. We have signed on as a sponsor of the event and hope to see you at the event.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ALSO&lt;/strong&gt; we will be hosting a party for the conference, more details to arrive closer to the date. Be on the look out because we will be bringing our standard beer geekery to a new level with this event. Hope to see you there!&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2008-04-20:15</id>
+    <published>2008-04-20T22:46:00Z</published>
+    <updated>2008-06-07T22:51:27Z</updated>
+    <link href="http://www.iterativedesigns.com/2008/4/20/pragmatic-studios" rel="alternate" type="text/html"/>
+    <title>Pragmatic Studios</title>
+<summary type="html">&lt;a href=&quot;http://pragmaticstudio.com/railsadvanced&quot;&gt;
+  &lt;img src=&quot;http://pragmaticstudio.com/images/buttons/advrails-alumni-button.png&quot; height=&quot;137&quot; alt=&quot;Rails Alumni&quot; width=&quot;169&quot; /&gt;
+&lt;/a&gt;</summary><content type="html">
+            &lt;a href=&quot;http://pragmaticstudio.com/railsadvanced&quot;&gt;
+  &lt;img src=&quot;http://pragmaticstudio.com/images/buttons/advrails-alumni-button.png&quot; height=&quot;137&quot; alt=&quot;Rails Alumni&quot; width=&quot;169&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://pragmaticstudio.com/railsadvanced&quot;&gt;&lt;strong&gt;Pragmatic Studios - Advanced Rails Studio 2008&lt;/strong&gt;&lt;/a&gt; 
+&lt;p&gt;From their site, &quot;the Advanced Rails Studio is an interactive workshop that takes your Rails knowledge to the next level. Mastery is the key to building killer Rails applications with confidence and efficiency. By learning how others have solved tough problems, and applying those lessons in context, you'll save time while building better Rails applications.&quot;&lt;/p&gt;
+&lt;p&gt;We participated in the Advanced Rails Studio from April 16 - 20, 2008 in our hometown of Reston, VA.&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://www.iterativedesigns.com/">
+    <author>
+      <name>voodootikigod</name>
+    </author>
+    <id>tag:www.iterativedesigns.com,2007-09-06:7</id>
+    <published>2007-09-06T13:16:00Z</published>
+    <updated>2008-08-14T22:06:52Z</updated>
+    <category term="Clients"/>
+    <link href="http://www.iterativedesigns.com/2007/9/6/craig-coyne" rel="alternate" type="text/html"/>
+    <title>Craig Coyne</title>
+<content type="html">
+            &lt;p&gt;&lt;a href=&quot;http://www.craigcoyne.com&quot;&gt;Craig Coyne&lt;/a&gt; was in the midst of a massive brand re-design to attract a wider audience, both young and old, for their jewelry sales. Craig Coyne utilized Iterative Designs for the entire the web effort of this brand roll-out during the Fall of 2006 and we were able to deliver the new site with e-commerce capability by in time for the holiday rush and the brand announcement.&lt;/p&gt;
+
+&lt;p&gt;The Craig Coyne site is built with Ruby on Rails, xHTML, and CSS. It makes extensive use of the Script.aculo.us effects and animation library to provide a rich interface experience without bandwidth or plug-in requirements. As part of this project, we integrated an &lt;a href=&quot;http://craigcoyne.myshopify.com&quot;&gt;e-commerce store for Craig Coyne&lt;/a&gt; and a weblog system for Sam, Jesse, and Michael to publish content for their site visitors.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Services Provided:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom Ruby on Rails Website Creation&lt;/li&gt;
+&lt;li&gt;Web Hosting Setup and Configuration&lt;/li&gt;
+&lt;li&gt;Virtual Private Network Setup and Configuration&lt;/li&gt;
+&lt;li&gt;Information Technology Infrastructure Configuration and Maintenance&lt;/li&gt;
+&lt;li&gt;E-Commerce Website for Online Sale of Jewelry&lt;/li&gt;
+&lt;li&gt;Corporate Email Accounts Setup&lt;/li&gt;
+&lt;li&gt;Electronic Mailer Integration&lt;/li&gt;
+&lt;li&gt;Rich Interface Creation with Javascript only&lt;/li&gt;
+&lt;/ul&gt;
+          </content>  </entry>
+</feed>
